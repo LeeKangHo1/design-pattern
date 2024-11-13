@@ -2,6 +2,7 @@ package abc;
 
 public class App {
 
+    // Data로 A B C 모두 사용 가능
     public static void start(Data a){
         System.out.println(a.getId());
         System.out.println(a.getEmail());

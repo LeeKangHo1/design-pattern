@@ -5,8 +5,8 @@ public class App {
     public static void main(String[] args) {
         Doorman doorman = new Doorman();
 
-        Cat cat = new Cat();
-        Mouse mouse = new Mouse();
+        Animal cat = new Cat();
+        Animal mouse = new Mouse();
 
         OuterTiger outerTiger = new OuterTiger();
         Animal ta = new TigerAdapter(outerTiger);
