@@ -1,4 +1,4 @@
-package ch01;
+package ch03;
 
 // SRP(Single Responsibility Principle, 단일 책임 원칙)
 public class Doorman {

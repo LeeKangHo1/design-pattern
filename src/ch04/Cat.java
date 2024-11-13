@@ -1,4 +1,4 @@
-package ch01;
+package ch04;
 
 // Cat
 public class Cat extends Animal {

@@ -1,4 +1,4 @@
-package ch01;
+package ch04;
 
 // Mouse
 public class Mouse extends Animal {

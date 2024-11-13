@@ -1,4 +1,4 @@
-package ch01;
+package ch04;
 
 // main
 public class App {
