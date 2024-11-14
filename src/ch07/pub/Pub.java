@@ -20,10 +20,10 @@ public class Pub implements PubListener {
         subList.remove(sub);
     }
 
-    // 2. 책이 : 물건이 들어오면, 구독자들에게 알림을 보낸다.
+    // 2. 책이 : 영상이 업로드되면, 구독자들에게 알림을 보낸다.
     @Override
     public void notifyChange(String msg) {
-        // 5초 뒤에 알림 전송
+        // 5초 대기
         for (int i = 1; i < 6; i++) {
             // TODO sleep이 try/catch 필요한 이유
             try {

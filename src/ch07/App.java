@@ -18,9 +18,9 @@ public class App {
         pub.add(sub1);
         pub.add(sub2);
 
-        // 3. 상품 들어옴 (가정)
+        // 3. 채널에 영상 업로드 (가정)
 
-        // 4. nitifyChange 호출(영상이 올라왔을 때)
+        // 4. notifyChange 호출(영상이 올라왔을 때)
         pub.notifyChange("상품 들어왔어!!");
     }
 }
